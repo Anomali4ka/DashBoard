@@ -1,22 +1,20 @@
-document.querySelector(".status__btn").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
+const statusBtn = document.getElementsByClassName("status__btn");
+const statusBtnArrey = Array.from(statusBtn);
 
-document.querySelector(".status__btn1").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
-document.querySelector(".status__btn2").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
-document.querySelector(".status__btn3").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
-document.querySelector(".status__btn4").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
-document.querySelector(".status__btn5").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
-});
-document.querySelector(".status__btn6").addEventListener("click", function () {
-  this.textContent = this.textContent == "Active" ? "Inactive" : "Active";
+console.log(statusBtnArrey);
+
+statusBtnArrey.forEach((statusBtn) => {
+  let isRed = false;
+
+  statusBtn.addEventListener("click", () => {
+    if (isRed) {
+      statusBtn.style.backgroundColor = "#16c09861";
+      statusBtn.textContent = "Active";
+    } else {
+      statusBtn.style.backgroundColor = "red";
+      statusBtn.textContent = "Inactive";
+    }
+
+    isRed = !isRed;
+  });
 });

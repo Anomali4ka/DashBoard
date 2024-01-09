@@ -10,5 +10,3 @@ itemsArrey.forEach(function (items) {
     items.style.backgroundColor = "#fff";
   });
 });
-
-console.log(items);
