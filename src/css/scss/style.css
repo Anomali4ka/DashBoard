@@ -1,0 +1,233 @@
+.nav {
+  width: 306px;
+}
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 55px;
+  margin-top: 36px;
+  margin-left: 16px;
+}
+.nav__logo__item__img {
+  margin-right: 11.5px;
+}
+.nav__logo__item__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+.nav__logo__item__version {
+  margin-top: 12px;
+  display: flex;
+  margin-left: 8px;
+  align-items: end;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #838383;
+}
+.nav__manu {
+  list-style-type: none;
+  margin-left: -20px;
+}
+.nav__manu__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9197b3;
+  margin-right: 10px;
+}
+.nav__manu__vector {
+  max-width: 8px;
+  max-height: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  color: #9197b3;
+}
+
+.nav__manu__item {
+  background: #fff;
+  width: 250px;
+  height: 46px;
+  padding: 0 14px 0 14px;
+}
+
+#color {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+#color1 {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+#color2 {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+#color3 {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+#color4 {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+#color5 {
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.45s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  background: rgb(51, 46, 109);
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.div {
+  margin: 0;
+  padding: 0;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.basis {
+  background: #fafbff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: #3e3492;
+  border-radius: 15px;
+}
+.basis .hello {
+  margin-left: 71px;
+  margin-top: 41px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgb(0, 0, 0);
+}
+.basis .main {
+  background: #857cda;
+  border-radius: 30px;
+  padding: 0 20px 0 20px;
+  width: 968px;
+  height: 812px;
+}
+.basis .main .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.basis .main .header .members {
+  justify-content: center;
+  display: flex;
+}
+.basis .main .header .members h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+.basis .main .header .members h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #16c098;
+}
+.basis .main .header .input {
+  display: flex;
+  -moz-column-gap: 13px;
+       column-gap: 13px;
+  background: #ffffff;
+  border-radius: 13px;
+}
+.basis .main .header .input .input2 {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+}
+.basis .main .header .input .input2:focus {
+  outline: none;
+}
+.basis .main .header .input .lupa {
+  border-radius: 50%;
+  border: none;
+}
+.basis .main .list__item {
+  display: flex;
+  padding: 0 25px 0 25px;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #b5b7c0;
+}/*# sourceMappingURL=style.css.map */
